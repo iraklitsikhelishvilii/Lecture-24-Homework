@@ -10,6 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Red Hat Text", sans-serif;
+  overflow-y: hidden;
 }
 section {
   width: 100%;
@@ -35,7 +36,7 @@ h1 {
   font-weight: 700px;
   line-height: 9.26px;
   letter-spacing: 2.96px;
-  color: #fff;
+  color: #8385a9;
   padding-top: 10px;
 }
 .main_container {
@@ -62,10 +63,11 @@ h1 {
 .box {
   width: 70px;
   height: 70px;
-  background-color: #000000;
+  background-color: #343650;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 6px;
 }
 footer {
   width: 100%;
@@ -92,4 +94,69 @@ footer {
   font-weight: 700px;
   letter-spacing: -1.08px;
   line-height: 70px;
+}
+.footer_img_desktop {
+  display: none;
+}
+@media (min-width: 600px) {
+  .container {
+    max-width: 390px;
+    width: 100%;
+  }
+  .main_container {
+    max-width: 390px;
+    width: 100%;
+  }
+  .icons_box {
+    max-width: 190px;
+    width: 100%;
+    padding-top: 160px;
+  }
+}
+@media (min-width: 1000px) {
+  .box {
+    width: 150px;
+    height: 150px;
+  }
+  .container {
+    max-width: 690px;
+    width: 100%;
+  }
+  .main_container {
+    max-width: 690px;
+    width: 100%;
+  }
+  .p_number {
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 71px;
+  }
+  .p_text {
+    font-size: 14px;
+    padding-top: 16px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  br {
+    display: none;
+  }
+  .footer_img {
+    display: none;
+  }
+  .footer_img_desktop {
+    display: block;
+    width: 100%;
+    height: ;
+  }
+  section {
+    padding-bottom: 120px;
+  }
+  footer {
+    position: relative;
+  }
+  .icons_box {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
