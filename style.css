@@ -10,7 +10,6 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Red Hat Text", sans-serif;
-  overflow-y: hidden;
 }
 section {
   width: 100%;
@@ -26,7 +25,7 @@ h1 {
   font-size: 18px;
   line-height: 23.81px;
   font-weight: 700px;
-  padding-top: 145px;
+  padding-top: 50px;
   color: #fff;
   letter-spacing: 6.14px;
   text-align: center;
@@ -149,9 +148,7 @@ footer {
     width: 100%;
     height: ;
   }
-  section {
-    padding-bottom: 120px;
-  }
+
   footer {
     position: relative;
   }
