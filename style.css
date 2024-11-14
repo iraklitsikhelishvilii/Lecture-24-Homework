@@ -141,11 +141,11 @@ footer {
     padding-top: 16px;
   }
   h1 {
-    padding-top: 60px;
+    padding-top: 80px;
     font-size: 22px;
   }
   .container {
-    padding-top: 100px;
+    padding-top: 50px;
   }
   .icons_box {
     padding-top: 60px;
@@ -156,11 +156,5 @@ footer {
   .footer_img2 {
     display: block;
     width: 100%;
-  }
-  footer {
-    padding-top: 80px;
-  }
-  .icons_box {
-    padding-top: 150px;
   }
 }
